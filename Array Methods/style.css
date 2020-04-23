@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 182, 193);
+  font-family: 'Bitter', serif;
+}
+
+.main-container {
+  display: flex;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 10px 30px;
+  border-right: 1px solid;
+}
+
+button {
+  padding: 10px 20px 10px 20px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: antiquewhite;
+  cursor: pointer;
+  appearance: none;
+  -moz-appearance: none;
+}
+
+.detail-container {
+  padding: 10px 20px;
+}
+
+strong {
+  margin-right: 100px;
+}
+h2 {
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 100;
+  margin: 0 0 20px;
+}
+
+h3 {
+  border-bottom: 1px inset;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 200;
+  margin: 0 0 20px;
+}
+
+.person {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+
+.total {
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  border-top: 1px ridge;
+  padding: 10px;
+  margin: 0;
+  background-color:   rgb(245, 161, 174);
+}
+
+select:focus,
+button:focus,
+input:focus {
+  outline: 0;
+}
