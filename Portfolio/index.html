@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav id="nav-conatiner" class="nav-container">
+      <img src="images/pruthvi.png" />
+      <div id="bio" class="bio">Bio</div>
+      <div id="repo" class="bio">Github repo</div>
+      <div id="contact" class="bio">Contact details</div>
+    </nav>
+
+    <div class="container" id="container">
+      <div class="intro" id="intro">
+        <header class="header">
+          <button class="toggle" id="toggle">
+            <i class="fa fa-bars fa-2x"></i>
+          </button>
+          <h2>About Me</h2>
+          <h4>Allow me to introduce myself</h4>
+          <button class="register" id="register">
+            Get in touch
+          </button>
+        </header>
+        <div class="content">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus
+            numquam, quasi voluptatibus reprehenderit quas ullam perspiciatis
+            quod velit temporibus sit laborum tempore harum fugit hic, dicta
+            consequuntur pariatur dolore alias?
+          </p>
+
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique,
+            impedit. Eos ipsam voluptatum similique, maxime quae, quia in quo
+            sapiente minima ducimus, dolor aliquam provident exercitationem.
+            Laborum magni non repellat amet eveniet, consequatur eaque
+            cupiditate magnam quo placeat corporis inventore quibusdam veniam
+            illum enim voluptatem sunt architecto facilis? Itaque, cupiditate.
+          </p>
+          <h3>Few more details</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+            possimus omnis voluptatibus optio in rerum corporis atque provident
+            mollitia sapiente autem ratione distinctio nulla eos, illo fuga ea
+            maxime nemo! Iste dolor fuga sed dolores, sapiente expedita odit
+            aperiam dolorem ex quaerat laborum veniam eaque explicabo nihil
+            similique dignissimos sunt nobis ipsa ipsam. Dolores, nobis facere
+            modi beatae cum ipsum amet itaque minima deleniti eveniet officia
+            laudantium vel suscipit? Nostrum id iure necessitatibus quaerat
+            perspiciatis, nobis asperiores perferendis ad quisquam voluptatibus
+            quae beatae ducimus distinctio, consequatur magni. Ullam vitae
+            maxime obcaecati nobis nam officiis repudiandae consectetur mollitia
+            autem numquam omnis accusamus facilis blanditiis doloremque sint,
+            nulla inventore doloribus facere ducimus? Maxime in cum ullam nihil
+            quos, repudiandae beatae quas quisquam!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="main-container" id="main-container">
+      <div class="modal-container" id="modal-container">
+        <header class="modal-header">
+          <button class="close" id="close">×</button>
+          <div class="title">Please enter details</div>
+        </header>
+        <form class="modal-form" id="modal-form">
+          <div class="modal-body">
+            <div>
+              <label>Name</label>
+              <input type="text" class="mail" placeholder="Enter Name" />
+            </div>
+            <div>
+              <label>Email Id</label>
+              <input type="email" class="email" placeholder="Enter Email Id" />
+            </div>
+            <button class="submit" id="submit">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
