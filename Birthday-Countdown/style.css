@@ -153,8 +153,9 @@ h3 {
     background-repeat: none;
     /* Background-image: url("https://wallpapercave.com/wp/wp2976244.jpg"); */
     background-image: url('./images/IMG_20191231_122649.jpg');
-    background-size: 452px 900px;
+    background-size: 452px 910px;
     /* background-repeat: no-repeat; */
+    overflow: none;
   }
 
   background-image {
@@ -189,7 +190,9 @@ h3 {
     background-repeat: none;
     /* Background-image: url("https://wallpapercave.com/wp/wp2976244.jpg"); */
     background-image: url('./images/IMG_20191231_122649.jpg');
-    background-size: 452px 900px;
+    background-size: 452px 910px;
+    overflow: none;
+
     /* background-repeat: no-repeat; */
   }
 
