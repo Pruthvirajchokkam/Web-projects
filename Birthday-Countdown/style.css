@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+}
+body {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 45vh;
+  /* letter-spacing: 3px; */
+  font-family: 'Kaushan Script', cursive;
+  color: aliceblue;
+  /* https://raw.githubusercontent.com/jaeteekae/Spookmentum/master/backgrounds/31fcda47-100b-42e1-a513-c6aa09c3b2dd.jpg */
+  background-image: url('https://images.unsplash.com/photo-1530800582996-e01416dd12ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  /* https://wallpapercave.com/wp/wp5033597.jpg */
+  /* Background-image: url("https://wallpapercave.com/wp/wp2976244.jpg"); */
+  /* 
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif; */
+  /* background-repeat: no-repeat; */
+  /* background-position: calc(100% - 20px) calc(100% - 10px);  */
+  background-size: 1680px 950px;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+#flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.value {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+@media (max-width: 500px) {
+  body {
+    color: whitesmoke;
+    width: 400px;
+    margin-left: 40px;
+    letter-spacing: 1px;
+    
+    background-size: 500px 650px;
+      Background-image: url("https://wallpapercave.com/wp/wp2976244.jpg");
+      background-size: 500px 650px;    
+  }
+  h1 {
+    font-size: 35px;
+  }
+  .value {
+    font-size: 33px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    color: teal;
+    width: 350px;
+    margin-left: 10px;
+    letter-spacing: 1px;
+      Background-image: url("https://wallpapercave.com/wp/wp2976244.jpg");
+      Background-image: url("https://wallpapercave.com/wp/wp5033597.jpg");
+
+      background-size: 500px 700px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .value {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 767px) {
+  /* Your Styles... */
+}
+@media only screen and (min-width: 914px) and (orientation: landscape) {
+  /* Your Styles... */
+}
