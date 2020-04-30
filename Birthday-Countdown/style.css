@@ -14,12 +14,12 @@ body {
   height: 400px;
   /* letter-spacing: 3px; */
   font-family: 'Monoton', cursive;
-font-family: 'Merriweather', serif;
-font-family: 'Varela Round', sans-serif;
-font-family: 'Black Han Sans', sans-serif;
-font-family: 'Merienda One', cursive;
-    color: aliceblue;
-    font-size: 50px;
+  font-family: 'Merriweather', serif;
+  font-family: 'Varela Round', sans-serif;
+  font-family: 'Black Han Sans', sans-serif;
+  font-family: 'Merienda One', cursive;
+  color: aliceblue;
+  font-size: 50px;
   /* https://raw.githubusercontent.com/jaeteekae/Spookmentum/master/backgrounds/31fcda47-100b-42e1-a513-c6aa09c3b2dd.jpg */
   background-image: url('https://images.unsplash.com/photo-1530800582996-e01416dd12ed?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
   /* https://wallpapercave.com/wp/wp5033597.jpg */
@@ -158,7 +158,7 @@ h3 {
     background-repeat: none;
     /* Background-image: url("https://wallpapercave.com/wp/wp2976244.jpg"); */
     background-image: url('./images/IMG_20191231_122649.jpg');
-    background-size: 452px 910px;
+    background-size: 452px 900px;
     /* background-repeat: no-repeat; */
     overflow: none;
   }
