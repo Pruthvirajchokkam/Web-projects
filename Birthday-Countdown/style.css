@@ -159,6 +159,7 @@ h3 {
     /* Background-image: url("https://wallpapercave.com/wp/wp2976244.jpg"); */
     background-image: url('./images/IMG_20191231_122649.jpg');
     background-size: 452px 900px;
+    font-family: 'Kaushan Script', cursive;
     /* background-repeat: no-repeat; */
     overflow: none;
   }
@@ -197,7 +198,7 @@ h3 {
     background-image: url('./images/IMG_20191231_122649.jpg');
     background-size: 452px 910px;
     overflow: none;
-
+    font-family: 'Kaushan Script', cursive;
     /* background-repeat: no-repeat; */
   }
 
