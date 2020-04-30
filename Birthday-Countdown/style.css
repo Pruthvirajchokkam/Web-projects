@@ -54,10 +54,11 @@ h3 {
     width: 400px;
     margin-left: 40px;
     letter-spacing: 1px;
-    
+
     background-size: 500px 650px;
-      Background-image: url("https://wallpapercave.com/wp/wp2976244.jpg");
-      background-size: 500px 650px;    
+    /* Background-image: url("https://wallpapercave.com/wp/wp2976244.jpg"); */
+    background-image: url('https://lh3.googleusercontent.com/GOR4cAChP44tTytwUiXhNoIM4c5Y48ytCKZDHLawCTiiUtDsNHD8MFXwiwr1t0nbx9zKTOeqHv8wrNFgjJsrOIaGmRBBF91wiI8Ttz-K0FDVK5b3OoeejJ8YMuUAQ1vKrV2AfxtdDKyPVUi0YS4o19dASTLYsKEGnisqGJ-G07tB52d2hwibDI48hyNI5nBunwc00AeILhMD2P5VyobWykax1Qy6i1s0O1wOJL4b9EF3CvXNHYydIuxZPHugIB6Dk4fnYmGQyYZZ2NUkjjJAjh1F_11OiVUBMF8Lc7a7SyUlLlGYKnCWj701f3qbDSGydWfsWFRPfzdBydlkcAyIRMhDpC2OnuBip77PwBzVld_F-33WVb99VjuEe00cpRHn8BIWbkK4z3MgrG48iVkCY3vIUhrht3j0jFzti-DOYt0PGsNp8e1O0XETy_DAoxJd0dJlfYEIclC7BBy7djit5td1P3wdxvnWI568oIEi-JEd9bD88inHsqL__EV5I5YC8aGTAq8Wvc-GzbgutehtdL8ZJdgMBCIRfSyj3vdzSCLPktIbd4qWzKco5FCPrGtukaGLB0FymY_fVAMhdU-RyvNhcUNUQ87CRWtOBTnYSIj2tABJZQnV-v_wkJzJIf7BxLyeHCbIJFTppZ8UUqFDV4l03YpcM067gmTIAS5fsDjEg5NFOxAxfS5SRkiQOA=w1410-h1878-no');
+    background-size: 500px 650px;
   }
   h1 {
     font-size: 35px;
@@ -77,10 +78,11 @@ h3 {
     width: 350px;
     margin-left: 10px;
     letter-spacing: 1px;
-      Background-image: url("https://wallpapercave.com/wp/wp2976244.jpg");
-      Background-image: url("https://wallpapercave.com/wp/wp5033597.jpg");
+    background-image: url('https://wallpapercave.com/wp/wp2976244.jpg');
+    background-image: url('https://wallpapercave.com/wp/wp5033597.jpg');
+    height: -25vh;
 
-      background-size: 500px 700px;
+    background-size: 500px 700px;
   }
   h1 {
     font-size: 30px;
