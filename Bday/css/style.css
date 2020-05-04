@@ -4,7 +4,13 @@
 
 body {
   margin: 0;
+  padding: 0px 100px ;
   font-family: 'Montserrat', sans-serif;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
 }
 
 .main-container {
@@ -12,6 +18,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 0px 100px ;
+
 }
 
 h1.year {
@@ -64,9 +72,8 @@ h1.year {
   }
 }
 
-#y2014{
+#y2014 {
   width: 400px;
-
 }
 #y2016 {
   width: 900px;
@@ -300,7 +307,7 @@ label {
 
 .arrow {
   font-size: 800px;
-  color: skyblue;
+  color: white;
   display: block;
   text-align: center;
 }
@@ -313,7 +320,7 @@ h1 {
 }
 
 .last {
-  background-color: gray;
+  background-color: grey;
   width: 100%;
   padding-top: 50px;
 }
@@ -322,6 +329,8 @@ h1 {
   padding-top: 30px;
   padding-right: 10px;
   text-align: right;
+  width: 100%;
+
 }
 
 .living-room {
@@ -436,6 +445,7 @@ h1 {
   font-size: 110px;
   left: 150px;
   top: 300px;
+  font-family: 'rustico';
 }
 
 .slide-container {
