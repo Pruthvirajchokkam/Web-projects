@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  padding: 0px 100px ;
+  padding: 0px 20px 0px 0px ;
   font-family: 'Montserrat', sans-serif;
   background-color: skyblue;
   display: flex;
@@ -472,4 +472,35 @@ h1 {
 
 .show {
   display: block;
+}
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+  color: green;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink_me_slow {
+  animation: blinker 7s linear infinite;
+  font-size: 20px;
+
+}
+
+.textdiv {
+  animation: textgrowth 1s infinite alternate;
+  color: blueviolet;
+}
+
+@keyframes textgrowth {
+   0% {
+   font-size: 20px;
+   }
+   100% {
+   font-size: 30px;
+   }
 }
