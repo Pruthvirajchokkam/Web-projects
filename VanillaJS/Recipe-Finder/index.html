@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Recipe Finder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>Recipe Finder</h1>
+      <div class="flex">
+        <form class="flex">
+          <input
+            type="text"
+            class="search"
+            id="search"
+            placeholder="Search for recipe"
+          />
+          <button css="search-icon" type="submit" id="search-icon">
+            <i class="fas fa-search"></i>
+          </button>
+        </form>
+        <!-- <button css="random-icon" id="random">
+          <i class="fas fa-random"></i>
+        </button> -->
+      </div>
+
+      <div class="search-result-message" id="search-result-message"></div>
+      <div class="search-result-recipies" id="search-result-recipies"></div>
+      <div class="search-item" id="search-item"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

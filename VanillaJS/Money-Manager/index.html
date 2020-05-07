@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Money Manager</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>Money Manager</h1>
+      <div class="balance-section">
+        <h3>Your balance</h3>
+        <h2 class="balance" id="total">₹0</h2>
+        <div class="incomeAndExpense-section">
+          <div class="income" id="flex">
+            <label for="income" id="income">INCOME</label>
+            <label id="income-label">₹0</label>
+          </div>
+          <div class="expense" id="flex">
+            <label for="expense" id="expense">EXPENSE</label>
+            <label id="expense-label">₹0</label>
+          </div>
+        </div>
+        <div class="history-section">
+          <h3>History</h3>
+          <div class="history-content" id="history-content"></div>
+        </div>
+        <div class="transaction-section">
+          <h3>Add new expenses</h3>
+          <div class="input">
+            <label>Text</label>
+            <input placeholder="Enter text...." id="text" />
+            <label>Amount(+ve income, -ve expense)</label>
+            <input placeholder="Enter expense...." type="number" id="amount" />
+          </div>
+          <button class="submit" type="submit" id="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
