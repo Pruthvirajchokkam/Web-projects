@@ -5,7 +5,7 @@ const seconds = document.getElementById('seconds');
 
 function display() {
   var today = new Date();
-  var bday = new Date('05/05/2020 00:00:00');
+  var bday = new Date('05/05/2021 00:00:00');
   // console.log(today);
   var diff = bday.getTime() - today.getTime();
 
